@@ -13,3 +13,6 @@ C:\Users\samue\Desktop\Playground\C#\Clean architecture\clean-architecture-proje
 C:\Users\samue\Desktop\Playground\C#\Clean architecture\clean-architecture-project\src\Infrastructure\obj\Debug\net8.0\refint\Infrastructure.dll
 C:\Users\samue\Desktop\Playground\C#\Clean architecture\clean-architecture-project\src\Infrastructure\obj\Debug\net8.0\Infrastructure.pdb
 C:\Users\samue\Desktop\Playground\C#\Clean architecture\clean-architecture-project\src\Infrastructure\obj\Debug\net8.0\ref\Infrastructure.dll
+C:\Users\samue\Desktop\Playground\C#\Clean architecture\clean-architecture-project\src\Infrastructure\bin\Debug\net8.0\Application.dll
+C:\Users\samue\Desktop\Playground\C#\Clean architecture\clean-architecture-project\src\Infrastructure\bin\Debug\net8.0\Application.pdb
+C:\Users\samue\Desktop\Playground\C#\Clean architecture\clean-architecture-project\src\Infrastructure\obj\Debug\net8.0\Infrastructure.sourcelink.json
