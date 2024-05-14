@@ -1,4 +1,4 @@
-namespace Domain.Entities
+namespace CleanArchitectureImplementation.Domain.Entities
 {
     public class User 
     {

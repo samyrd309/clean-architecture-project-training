@@ -9,3 +9,5 @@ C:\Users\samue\Desktop\Playground\C#\Clean architecture\clean-architecture-proje
 C:\Users\samue\Desktop\Playground\C#\Clean architecture\clean-architecture-project\src\Domain\obj\Debug\net8.0\refint\Domain.dll
 C:\Users\samue\Desktop\Playground\C#\Clean architecture\clean-architecture-project\src\Domain\obj\Debug\net8.0\Domain.pdb
 C:\Users\samue\Desktop\Playground\C#\Clean architecture\clean-architecture-project\src\Domain\obj\Debug\net8.0\ref\Domain.dll
+C:\Users\samue\Desktop\Playground\C#\Clean architecture\clean-architecture-project\src\Domain\obj\Debug\net8.0\Domain.csproj.AssemblyReference.cache
+C:\Users\samue\Desktop\Playground\C#\Clean architecture\clean-architecture-project\src\Domain\obj\Debug\net8.0\Domain.sourcelink.json
