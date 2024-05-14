@@ -1,10 +1,10 @@
 using Microsoft.Extensions.DependencyInjection;
 using System.Reflection;
 
-namespace Application;
+namespace CleanArchitectureImplementation.Application;
 public static class ConfigureService
 {
-    public static IServiceCollection AddApplication(this IServiceCollection services)
+    public static IServiceCollection AddApplicationServices(this IServiceCollection services)
     {
         services.AddAutoMapper(Assembly.GetExecutingAssembly());
         services.AddMediatR(ctg => {
