@@ -1,8 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "7YgZDW/TUDuxz3gXsqMJonE9Qr5t1ITt6GPOlF1P8NUjf828v7JGEax3dCrtK91FdDSolUWn6v5ABK0Su78cxw==",
+  "dgSpecHash": "yZAYLCmvTuvR+2sTOp3X7MEVQooenPn3D0+7UWwmiIoQk9v217QzxQV7yjoH0eQnyVMBlVSr/6lf5De7iJdlWw==",
   "success": true,
   "projectFilePath": "C:\\Users\\samue\\Desktop\\Playground\\C#\\Clean architecture\\clean-architecture-project\\src\\Domain\\Domain.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\samue\\.nuget\\packages\\mediatr\\12.2.0\\mediatr.12.2.0.nupkg.sha512",
+    "C:\\Users\\samue\\.nuget\\packages\\mediatr.contracts\\2.0.1\\mediatr.contracts.2.0.1.nupkg.sha512",
+    "C:\\Users\\samue\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\8.0.0\\microsoft.extensions.dependencyinjection.abstractions.8.0.0.nupkg.sha512"
+  ],
   "logs": []
 }
