@@ -1,15 +1,15 @@
 using System.Security.Cryptography.X509Certificates;
 using AutoMapper;
-using Domain.Interfaces;
+using CleanArchitectureImplementation.Domain.Repository;
 using MediatR;
 
 namespace CleanArchitectureImplementation.Application.User.Queries.GetUsers;
 public class GetUsersQueryHandler : IRequestHandler<GetUsersQuery, List<UserVm>>
 {
-    private readonly IUserRepository _userRepository;
+    private readonly IUsersRepository _userRepository;
     private readonly IMapper _mapper;
 
-    public GetUsersQueryHandler(IUserRepository userRepository, IMapper mapper)
+    public GetUsersQueryHandler(IUsersRepository userRepository, IMapper mapper)
     {
         _userRepository = userRepository;
         _mapper = mapper;
@@ -18,7 +18,7 @@ public class GetUsersQueryHandler : IRequestHandler<GetUsersQuery, List<UserVm>>
 
     public async Task<List<UserVm>> Handle(GetUsersQuery request, CancellationToken cancellationToken)
     {
-        var users = await _userRepository.GetAllUsers();
+        var users = await _userRepository.GetAllUsersAsync();
         var userList = _mapper.Map<List<UserVm>>(users);
 
         return userList;
