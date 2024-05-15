@@ -1,9 +1,10 @@
 
-namespace CleanArchitectureImplementation.Application.User.Queries.GetUsersById;
+namespace CleanArchitectureImplementation.Application.Users.Queries.GetUsersById;
 
 using System.Threading;
 using AutoMapper;
-using CleanArchitectureImplementation.Application.User.Queries.GetUsers;
+using CleanArchitectureImplementation.Application.Users.Queries.GetUsersById;
+using CleanArchitectureImplementation.Application.Users.Queries.GetUsers;
 using CleanArchitectureImplementation.Domain.Repository;
 using MediatR;
 

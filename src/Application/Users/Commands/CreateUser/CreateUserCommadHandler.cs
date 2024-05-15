@@ -1,7 +1,7 @@
 
-namespace CleanArchitectureImplementation.Application.User.Commands.CreateUser;
+namespace CleanArchitectureImplementation.Application.Users.Commands.CreateUser;
 using AutoMapper;
-using CleanArchitectureImplementation.Application.User.Queries.GetUsers;
+using CleanArchitectureImplementation.Application.Users.Queries.GetUsers;
 using CleanArchitectureImplementation.Domain.Entities;
 using CleanArchitectureImplementation.Domain.Repository;
 using MediatR;

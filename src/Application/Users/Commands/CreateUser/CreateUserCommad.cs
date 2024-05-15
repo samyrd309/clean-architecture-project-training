@@ -1,7 +1,7 @@
-using CleanArchitectureImplementation.Application.User.Queries.GetUsers;
+using CleanArchitectureImplementation.Application.Users.Queries.GetUsers;
 using MediatR;
 
-namespace CleanArchitectureImplementation.Application.User.Commands.CreateUser;
+namespace CleanArchitectureImplementation.Application.Users.Commands.CreateUser;
 
 public class CreateUserCommand : IRequest<UserVm>
 {

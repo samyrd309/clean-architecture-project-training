@@ -1,7 +1,7 @@
-using CleanArchitectureImplementation.Application.User.Queries.GetUsers;
+using CleanArchitectureImplementation.Application.Users.Queries.GetUsers;
 using MediatR;
 
-namespace CleanArchitectureImplementation.Application.User.Queries.GetUsersById;
+namespace CleanArchitectureImplementation.Application.Users.Queries.GetUsersById;
 
 public class GetUserByIdQuery : IRequest<UserVm>
 {

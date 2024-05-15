@@ -1,5 +1,6 @@
 using System.Security.Cryptography.X509Certificates;
 using AutoMapper;
+using CleanArchitectureImplementation.Application.Users.Queries.GetUsers;
 using CleanArchitectureImplementation.Domain.Repository;
 using MediatR;
 
