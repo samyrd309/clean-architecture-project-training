@@ -2,13 +2,24 @@
 namespace CleanArchitectureImplementation.Application.User.Queries.GetUsersById;
 
 using System.Threading;
+using AutoMapper;
 using CleanArchitectureImplementation.Application.User.Queries.GetUsers;
+using CleanArchitectureImplementation.Domain.Repository;
 using MediatR;
 
 public class GetUserByIdQueryHandler : IRequestHandler<GetUserByIdQuery, UserVm>
 {
-    public Task<UserVm> Handle(GetUserByIdQuery request, CancellationToken cancellationToken)
+    private readonly IUsersRepository _usersRepository;
+    private readonly IMapper _mapper;
+    public GetUserByIdQueryHandler(IUsersRepository usersRepository, IMapper mapper)
     {
-        throw new NotImplementedException();
+        _usersRepository = usersRepository;
+        _mapper = mapper;
+    }
+    public async Task<UserVm> Handle(GetUserByIdQuery request, CancellationToken cancellationToken)
+    {
+       var user = await _usersRepository.GetUserByIdAsync(request.UserId);
+       return _mapper.Map<UserVm>(user);
+       
     }
 }
