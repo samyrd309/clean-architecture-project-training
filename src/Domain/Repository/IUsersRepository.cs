@@ -6,7 +6,7 @@ namespace CleanArchitectureImplementation.Domain.Repository
     {
         Task<User> GetUserByIdAsync(int userId);
         Task<IEnumerable<User>> GetAllUsersAsync();
-        Task<User> AddUserAsync(User user);
+        Task<User> CreateUserAsync(User user);
         Task<int> UpdateUserAsync(User user, int id);
         Task<int> DeleteUserAsync(int id);
     }
